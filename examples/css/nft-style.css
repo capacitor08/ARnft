@@ -45,10 +45,12 @@ html {
   z-index: 200;
   margin: 0.5rem;
   padding: 0.5rem 0.5rem 0;
+  visibility: hidden;
 }
 
 .stats-item {
   margin: 0 0 0.5rem;
+  visibility: hidden;
 
 }
 
@@ -56,10 +58,12 @@ html {
   margin: 0 0 0.25rem;
 
   font-size: 0.75rem;
+  visibility: hidden;
 }
 
 #stats div {
   position: relative !important;
+  visibility: hidden;
 }
 
 .marker {

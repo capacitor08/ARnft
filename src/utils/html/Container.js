@@ -23,7 +23,6 @@ export default class Container {
   }
 
   static createStats (create, configData) {
-    create = false
     if (create && configData.stats.createHtml) {
       const stats = document.createElement('div')
       stats.id = 'stats'
@@ -45,7 +44,7 @@ export default class Container {
       stats2.appendChild(stats2p)
       stats.appendChild(stats2)
       const loading = document.getElementById('loading')
-      document.body.insertBefore(stats, loading)
+      //document.body.insertBefore(stats, loading)
     }
   }
 
