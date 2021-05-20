@@ -23,6 +23,7 @@ export default class Container {
   }
 
   static createStats (create, configData) {
+    create = false
     if (create && configData.stats.createHtml) {
       const stats = document.createElement('div')
       stats.id = 'stats'
